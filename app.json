@@ -1,8 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-     "pages/invite/invite",
-    "pages/logs/logs"
+    "pages/invite/invite",
+    "pages/logs/logs",
+    "pages/activityMoudle/activity"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -10,6 +11,6 @@
     "navigationBarBackgroundColor": "#fbf9fe",
     "backgroundColor": "#fbf9fe"
   },
-  "debug": true
+  "debug": false
   
 }

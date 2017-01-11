@@ -30,4 +30,6 @@
       </picker>
     </view>
   </view>
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="bindconfirm"> 确认发起 </button>
 </view>

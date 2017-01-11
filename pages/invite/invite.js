@@ -1,4 +1,5 @@
 var timeData = require('../../utils/time.js')
+var app = getApp()
 Page({
   data: {
     array: ['龙阳路尅踢维','赤坂亭', '法式铁板骚', '彩泥云南', '匆匆那年'],
@@ -24,6 +25,17 @@ Page({
   bindTimeChange: function(e) {
     this.setData({
       time: e.detail.value
+    })
+  },
+  bindconfirm: function() {
+    app.globalData.location = this.data.array[this.data.index]
+    app.globalData.time = this.data.time
+    app.globalData.date = this.data.date
+    console.log("确认发起 地点:%s 时间:%s 日期%s",app.globalData.location,app.globalData.time,app.globalData.date)
+    app.globalData.isHave = true
+
+     wx.navigateTo({
+      url: '../index/index'
     })
   }
 })
