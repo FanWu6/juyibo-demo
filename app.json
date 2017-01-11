@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+     "pages/invite/invite",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "聚一波APP DEMO",
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "backgroundColor": "#fbf9fe"
+  },
+  "debug": true
+  
+}
