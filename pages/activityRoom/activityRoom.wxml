@@ -1,0 +1,55 @@
+<view class="weui-panel_access" data-c_e_id="wx_view_a6cc0615">
+    <view class="c-minheight wx-view_dZWg7q" data-c_e_id="wx_view_9c029afc">
+        <view class="c-minheight wx-view_NdU61L" data-c_e_id="wx_view_a0c8e071">
+            <text class="c-block wx-text_cHZYS4" data-c_e_id="wx_text_dc1b16f6">时间：</text>
+            <text class="c-block wx-text_bJxHDz" data-c_e_id="wx_text_87274bd7">{{joinInfo.time}}</text>
+        </view>
+        <view class="c-minheight wx-view_NdU61L" data-c_e_id="wx_viewdd4397e9">
+            <text class="c-block wx-text_cHZYS4" data-c_e_id="wx_text44576115">地点：</text>
+            <text class="c-block wx-text_bJxHDz" data-c_e_id="wx_text6727cbba">{{joinInfo.location}}</text>
+        </view>
+        <view class="c-minheight wx-view_NdU61L" data-c_e_id="wx_viewdfee1a0f">
+            <text class="c-block wx-text_cHZYS4" data-c_e_id="wx_text0369a537">备注：</text>
+            <text class="c-block wx-text_bJxHDz" data-c_e_id="wx_text31fa6a3e">{{joinInfo.des}}</text>
+        </view>
+    </view>
+    <view class="c-minheight wx-view_iOGYUF" data-c_e_id="wx_view_bad01b77">
+        <text class="c-block wx-text_v5HHOl" data-c_e_id="wx_text_6ef864c2">已报名</text>
+        <button catchtap="joinBtn" class="wx-button_U3kPX7" data-c_e_id="wx_button_6a9ab3f3" hover-class="button-hover" size="default" type="primary">
+            +
+        </button>
+    </view>
+    <view class="weui-media-box_appmsg" data-c_e_id="wx_viewb87bd917">
+        <block wx:for="{{serverU}}" wx:for-item="user">
+        <view wx:if="{{user.isParty == 1}}" class="weui-media-box__hd" data-c_e_id="wx_view51ccbcd5">
+            <image class="wx-image_P93075" data-c_e_id="wx_image_0db9bcad" mode="aspectFit" src="{{user.avatarUrl}}" style="background-size: contain; background-position: center center; background-repeat: no-repeat; background-image:  url(http://qty83k.creatby.com/materials/origin/c8556b9a7baaa4c14339f88a9c4cce2b_origin.jpg); "/>
+            <text class="c-block wx-text_sDmVMP" data-c_e_id="wx_text_c130a145">{{user.nickName}}</text>
+        </view>
+        </block>
+    </view>
+    <view class="c-minheight wx-view_iOGYUF" data-c_e_id="wx_viewf25a812e">
+        <text class="c-block wx-text_v5HHOl" data-c_e_id="wx_textea8676e0">请假</text>
+        <button catchtap="offBtn" class="wx-button_U3kPX7" data-c_e_id="wx_buttonc4cff37b" hover-class="button-hover" size="default" type="primary">
+            +
+        </button>
+    </view>
+    <view class="weui-media-box_appmsg" data-c_e_id="wx_viewf85c3721">
+        <block wx:for="{{serverU}}" wx:for-item="user">
+        <view  wx:if="{{user.isParty == 2}}" class="weui-media-box__hd" data-c_e_id="wx_viewde5df9a3">
+            <image class="wx-image_P93075" data-c_e_id="wx_image776d69f7" mode="aspectFit" src="{{user.avatarUrl}}" style="background-size: contain; background-position: center center; background-repeat: no-repeat; background-image:  url(http://qty83k.creatby.com/materials/origin/c8556b9a7baaa4c14339f88a9c4cce2b_origin.jpg); "/>
+            <text class="c-block wx-text_sDmVMP" data-c_e_id="wx_text3b8788a8">{{user.nickName}}</text>
+        </view>
+        </block>
+    </view>
+    <view class="c-minheight wx-view_iOGYUF" data-c_e_id="wx_view267ac9c8">
+        <text class="c-block wx-text_v5HHOl" data-c_e_id="wx_text4f2e2b9f">未报名</text>
+    </view>
+    <view class="weui-media-box_appmsg" data-c_e_id="wx_viewfb0084bf">
+        <block wx:for="{{serverU}}" wx:for-item="user">
+        <view wx:if="{{user.isParty == 0}}" class="weui-media-box__hd" data-c_e_id="wx_viewd3b0d25b">
+            <image class="wx-image_P93075" data-c_e_id="wx_image93f22b0b" mode="aspectFit" src="{{user.avatarUrl}}" style="background-size: contain; background-position: center center; background-repeat: no-repeat; background-image:  url(http://qty83k.creatby.com/materials/origin/c8556b9a7baaa4c14339f88a9c4cce2b_origin.jpg); "/>
+            <text class="c-block wx-text_sDmVMP" data-c_e_id="wx_text812c9532">{{user.nickName}}</text>
+        </view>
+        </block>
+    </view>
+</view>

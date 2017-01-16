@@ -3,8 +3,7 @@
     "pages/index/index",
     "pages/invite/invite",
     "pages/logs/logs",
-    "pages/activityMoudle/activity",
-     "pages/activityRoom/activityRoom"
+    "pages/activityMoudle/activity"
   ],
   "window": {
     "navigationBarTextStyle": "black",
