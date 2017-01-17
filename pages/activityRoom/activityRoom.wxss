@@ -63,55 +63,48 @@ radio-group{
 
 
 
-.weui-panel_access{padding-left:  15px; border-top-width:  1px; border-top-style:  solid; border-top-color:  rgb(229, 229, 229); border-bottom-width:  1px; border-bottom-style:  solid; border-bottom-color:  rgb(229, 229, 229); margin-bottom:  10px; display:  flex; flex-direction:  column; padding-right: 15px; background-color:  rgb(255, 255, 255); }
+.weui-panel_access{border-top-width:  1px; border-top-style:  solid; border-top-color:  rgb(229, 229, 229); border-bottom-width:  1px; border-bottom-style:  solid; border-bottom-color:  rgb(229, 229, 229); margin-bottom:  10px; display:  flex; flex-direction:  column; padding-right: 0px; padding-left:  0px; background-color:  rgba(255, 255, 255, 0.54902); }
 .wx-text_v5HHOl{color: rgb(153, 153, 153); font-size: 13px; padding: 15px 0px 10px; border-bottom: 1px solid rgb(229, 229, 229); border-bottom-style: none; }
 .weui-panel__bd{display:  block; border-bottom-width:  1px; border-bottom-color:  rgb(229, 229, 229); border-bottom-style: solid; }
 .weui-media-box__bd{flex:  1 1 0%; position: relative; }
-.weui-media-box_appmsg{display:  flex;
-padding-top:  15px;
-padding-bottom:  15px;
-border-bottom-width:  1px;
-border-bottom-style:  none;
-border-bottom-color:  rgb(229, 229, 229);
-padding-right:  15px;
-border-top-width:  1px;
-border-top-color:  rgb(229, 229, 229);
-border-top-style:  solid;
-justify-content:  flex-start;
-flex-flow:  row nowrap;
-align-content:  space-between;
-flex-wrap: wrap; }
+.weui-media-box_appmsg{display:  flex; padding-top:  15px; padding-bottom:  15px; border-bottom-width:  1px; border-bottom-style:  none; border-bottom-color:  rgb(229, 229, 229); padding-right:  15px; border-top-width:  1px; border-top-color:  rgb(229, 229, 229); border-top-style:  solid; justify-content:  flex-start; flex-flow:  row wrap; align-content:  space-between; background-color: rgba(219,219,219,1); }
 .weui-media-box__title2.weui-media-box_text{margin-bottom: 8px; }
 .weui-media-box__title2{font-size: 17px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; margin-bottom: 8px; }
 .weui-media-box__desc{color: rgb(153, 153, 153); font-size: 13px; line-height: 1.3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
 .weui-panel__ft{padding-top: 10px; padding-bottom: 10px; padding-right: 15px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgb(229, 229, 229); border-top-color: rgba(229,229,229,1); }
 .wx-text_rH9twP{font-size: 14px; color: rgb(88, 108, 148); display: inline-block; }
 .wx-text_RxVFII{display: inline-block; float: right; font-size: 13px; color: #999999; }
-.weui-media-box__hd{width:  80px; height:  80px; margin-right:  13px; flex:  0 0 auto; display: flex; flex-direction:  column; align-items:  center; position:  relative; background-size:  cover; background-position:  50% 50%; background-repeat:  no-repeat; }
+.weui-media-box__hd{width:  90px;
+height: 85px;
+margin-right:  13px;
+flex:  0 0 auto;
+display:  flex;
+flex-direction:  column;
+align-items:  center;
+position:  relative;
+margin-left:  2px;
+background-size:  cover;
+background-position:  50% 50%;
+background-repeat:  no-repeat; }
 .weui-media-box__title{font-size:  17px; overflow:  hidden; text-overflow:  ellipsis; display:  inline-block; -webkit-box-orient:  vertical; -webkit-line-clamp:  1; margin-bottom:  auto; float: none; margin-top:  0px; left:  0px; right:  0px; top:  0px; bottom:  0px; position:  absolute; }
 .wx-text_QGazFC{color:  rgb(186, 143, 143); font-weight:  700; font-size:  17px; font-family:  'courier new'; text-align:  left; width:  62px; background-color: transparent; }
 .wx-view_NdU61L{display:  flex; flex-direction:  row; justify-content:  flex-start; align-items:  center; height:  20px; min-height:  20px; border-style:  none none solid; border-color:  rgb(166, 164, 164); border-width:  0.5px; background-color:  rgb(255, 255, 255); border-bottom-width: 0.5px; border-top-width: 0.5px; border-right-width: 0.5px; border-left-width: 0.5px; }
 .wx-text_cHZYS4{color:  rgb(222, 120, 0); font-weight: 500; font-family:  'Microsoft YaHei'; }
-.wx-text_bJxHDz{color: #9e9e9e; font-weight:  100; font-size:  18px; font-style:  italic; }
+.wx-text_bJxHDz{color:  rgb(0, 0, 0); font-weight:  lighter; font-size:  16px; font-style:  normal; text-decoration:  underline; }
 .wx-view_dZWg7q{border-type: border-right; }
 .wx-image_P93075{border-radius: 50px; width: 50px; height: 50px; border: 2px solid rgb(135, 0, 40); border-bottom-color: rgba(135,0,32,1); border-top-color: rgba(135,0,32,1); border-right-color: rgba(135,0,32,1); border-left-color: rgba(135,0,32,1); }
 .wx-text_sDmVMP{font-size: 15px; }
-.wx-view_iOGYUF{min-height:  40px;
-border-left-color:  rgb(133, 133, 133);
-border-radius:  0px;
-border-left-width:  1px;
-border-left-style:  dotted;
-display:  flex; }
+.wx-view_iOGYUF{min-height:  40px; border-left-color:  rgb(133, 133, 133); border-radius:  0px; border-left-width:  1px; border-left-style:  dotted; display:  flex; color:  rgb(94, 94, 94); background-color: rgba(255,255,255,1); }
 .wx-image_iAJi8Z{width:  20px; height:  20px; float:  left; clear:  right; position:  relative; margin-top:  auto; margin-bottom:  auto; left:  0px; right:  0px; top:  0px; bottom:  0px; display:  block; overflow:  visible; margin-right: 4px; }
-
-.wx-button_U3kPX7{order:  1;
-margin-right:  0px;
-width:  20px;
-height:  25px;
-margin-top:  6px;
-line-height:  1.46em;
-text-indent: -5px;
-}
+.wx-button_9zOcqm{order:  1; display:  block; flex-direction:  row; justify-content:  flex-start; margin-right:  0px; overflow:  visible; position:  static; padding-bottom:  0px; width:  20px; height:  25px; flex:  0 0 auto; align-self:  center; line-height: 1.4em; text-indent:  -5px; text-align:  right; }
+.wx-button_U3kPX7{margin-right:  0px; width:  20px; height:  25px; margin-top:  6px; line-height:  1.46em; text-indent: -5px; }
+.wx-view_SlPP4t{background-color:  rgba(78, 128, 186, 0.862745); }
+.wx-text-title{color:  rgb(255, 255, 255); font-size:  18px; font-weight:  lighter; font-family: SimSun; }
+.wx-image-PHead{width:  50px; height:  50px; border-radius:  50px; border:  1.5px solid rgb(255, 255, 255); border-bottom-width: 1.5px; border-top-width: 1.5px; border-right-width: 1.5px; border-left-width: 1.5px; }
+.weui-media-box-head{width:  300px;
+height:  60px;
+display:  flex;
+align-items: flex-end;}
 
 
 

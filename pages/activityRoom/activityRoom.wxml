@@ -1,4 +1,10 @@
 <view class="weui-panel_access" data-c_e_id="wx_view_a6cc0615">
+    <view class="c-minheight wx-view_SlPP4t" data-c_e_id="wx_view_556e8983">
+        <view class="weui-media-box__hd" data-c_e_id="wx_view7ac5dc36">
+            <image class="wx-image-PHead" data-c_e_id="wx_image93fa4e3a" mode="aspectFit"       src="http://qty83k.creatby.com/materials/origin/c8556b9a7baaa4c14339f88a9c4cce2b_origin.jpg" style="background-size: contain; background-position: center center; background-repeat: no-repeat; background-image:  url(http://qty83k.creatby.com/materials/origin/c8556b9a7baaa4c14339f88a9c4cce2b_origin.jpg); "/>
+            <text class="c-block wx-text-title" data-c_e_id="wx_textf420e745">imfeather</text>
+        </view>
+    </view>
     <view class="c-minheight wx-view_dZWg7q" data-c_e_id="wx_view_9c029afc">
         <view class="c-minheight wx-view_NdU61L" data-c_e_id="wx_view_a0c8e071">
             <text class="c-block wx-text_cHZYS4" data-c_e_id="wx_text_dc1b16f6">时间：</text>

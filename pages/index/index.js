@@ -76,6 +76,7 @@ Page({
     //   url: gotourl
     // })
 
+
     return new AV.Query('Room')
     .find()
     .then(this.getRoomInfo)
@@ -122,7 +123,7 @@ Page({
       this.setData({
         buttonText:this.data.buttonText
       })
-      wx.navigateTo({
+      wx.switchTab({
         url: gotourl
     })
   },
